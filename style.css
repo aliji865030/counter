@@ -1,0 +1,62 @@
+
+
+
+
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+    padding-top: 0px;
+    /* margin-top: -10%; */
+}
+
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    gap: 20px;
+}
+.number{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 92px;
+    /* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+    background-color: aqua;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+    border: 1px solid black;
+
+}
+.btnPlus button,.btnMinus button{
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: none;
+}
+.reset button{
+   width: 150px;
+   height: 40px;
+   font-size: 22px;
+   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   border: none;
+}
+h1{
+    
+    font-size: 102px;
+    margin-top: -10%;
+    
+}
